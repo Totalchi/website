@@ -1,4 +1,4 @@
-!-- index.html -->
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -57,23 +57,23 @@
     <div class="feature-grid">
       <div class="feature" data-key="feat1">
         <div class="icon">🔍</div>
-        <h3>Volledige Accountscan</h3>
-        <p>Overzicht van al uw online accounts met één klik.</p>
+        <h3 data-key="feat1_title">Volledige Accountscan</h3>
+        <p data-key="feat1_desc">Overzicht van al uw online accounts met één klik.</p>
       </div>
       <div class="feature" data-key="feat2">
         <div class="icon">✍️</div>
-        <h3>Wensendashboard</h3>
-        <p>Leg vast wie wat mag ontvangen of bekijken.</p>
+        <h3 data-key="feat2_title">Wensendashboard</h3>
+        <p data-key="feat2_desc">Leg vast wie wat mag ontvangen of bekijken.</p>
       </div>
       <div class="feature" data-key="feat3">
         <div class="icon">🔒</div>
-        <h3>Beveiligde Sleutelbewaring</h3>
-        <p>Wij bewaren uw gegevens in versleutelde kluizen.</p>
+        <h3 data-key="feat3_title">Beveiligde Sleutelbewaring</h3>
+        <p data-key="feat3_desc">Wij bewaren uw gegevens in versleutelde kluizen.</p>
       </div>
       <div class="feature" data-key="feat4">
         <div class="icon">📑</div>
-        <h3>Eenvoudige Overdracht</h3>
-        <p>Op verzoek activeren wij de overdracht naar uw nabestaanden.</p>
+        <h3 data-key="feat4_title">Eenvoudige Overdracht</h3>
+        <p data-key="feat4_desc">Op verzoek activeren wij de overdracht naar uw nabestaanden.</p>
       </div>
     </div>
   </section>
@@ -117,19 +117,19 @@
       <div class="form-grid">
         <div class="form-group">
           <label for="name" data-key="contact_name">Naam*</label>
-          <input type="text" id="name" placeholder="Uw naam" required>
+          <input type="text" id="name" data-placeholder-key="contact_name_placeholder" placeholder="Uw naam" required>
         </div>
         <div class="form-group">
           <label for="email" data-key="contact_email">E‑mail*</label>
-          <input type="email" id="email" placeholder="Uw e‑mail" required>
+          <input type="email" id="email" data-placeholder-key="contact_email_placeholder" placeholder="Uw e‑mail" required>
         </div>
         <div class="form-group">
           <label for="phone" data-key="contact_phone">Telefoon (optioneel)</label>
-          <input type="tel" id="phone" placeholder="Uw nummer">
+          <input type="tel" id="phone" data-placeholder-key="contact_phone_placeholder" placeholder="Uw nummer">
         </div>
         <div class="form-group form-full">
           <label for="message" data-key="contact_message">Bericht</label>
-          <textarea id="message" rows="4">Hallo, ik had graag wat meer informatie gewenst over de mogelijkheden bij NexLegacy, alvast bedankt.</textarea>
+          <textarea id="message" data-placeholder-key="contact_message_placeholder" rows="4">Hallo, ik had graag wat meer informatie gewenst over de mogelijkheden bij NexLegacy, alvast bedankt.</textarea>
         </div>
       </div>
       <button type="submit" class="btn btn-primary btn-block" data-key="contact_send">Verstuur</button>
