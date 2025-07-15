@@ -1,0 +1,141 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexLegacy — Bescherm wat belangrijk is</title>
+  <link rel="stylesheet" href="eigenwebsite.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="branding">
+        <h1 class="logo">NexLegacy</h1>
+        <p class="slogan">Your Digital Legacy, Secured.</p>
+        <p class="why">Waarom?</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#why">Waarom</a></li>
+          <li><a href="#about">Over ons</a></li>
+          <li><a href="#features">Wat wij bieden</a></li>
+          <li><a href="#pricing">Prijzen</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button id="btn-signup" class="btn">Aanmelden</button></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Rust voor uzelf en uw nabestaanden</h2>
+      <p>Regel eenvoudig uw digitale nalatenschap: social media, foto's, documenten en meer. Alles veilig opgeslagen en overdraagbaar wanneer het nodig is.</p>
+      <button class="btn btn-primary">Begin gratis scan</button>
+      <p class="note">* AVG-proof: uw privacy is gewaarborgd volgens GDPR.</p>
+    </div>
+  </section>
+
+  <section id="why" class="why-section container">
+    <h2 class="section-title">Waarom Digitale Zekerheid?</h2>
+    <p>In ons digitale tijdperk bevatten uw online accounts, foto's, documenten en berichten waardevolle herinneringen en belangrijke informatie. Zonder goede regeling raken deze data na overlijden of onverwachte gebeurtenissen vaak ontoegankelijk of verspreid. Met onze oplossing zorgt u ervoor dat uw dierbaren precies weten hoe ze uw digitale nalatenschap kunnen beheren, delen of bewaren. Zo voorkomt u onzekerheid en bespaart u uw familie tijd, zorgen en kosten.</p>
+  </section>
+
+  <section id="about" class="about container">
+    <h2 class="section-title">Over NexLegacy</h2>
+    <p>Als gezinsexperts, digitale specialisten en juristen helpen wij particulieren hun online erfenis te beheren. Wij zorgen dat uw dierbare herinneringen en belangrijke bestanden beschikbaar blijven voor de mensen die u lief zijn.</p>
+  </section>
+
+  <section id="features" class="features container">
+    <h2 class="section-title">Wat wij bieden</h2>
+    <div class="feature-grid">
+      <a href="features.html#account-inventarisatie" class="feature">
+        <div class="icon">🔍</div>
+        <h3>Volledige Accountscan</h3>
+        <p>Overzicht van al uw online accounts met één klik.</p>
+      </a>
+      <a href="features.html#wensen-registratie" class="feature">
+        <div class="icon">✍️</div>
+        <h3>Wensendashboard</h3>
+        <p>Leg vast wie wat mag ontvangen of bekijken.</p>
+      </a>
+      <a href="features.html#wachtwoord-escrow" class="feature">
+        <div class="icon">🔒</div>
+        <h3>Beveiligde Sleutelbewaring</h3>
+        <p>Wij bewaren uw gegevens in versleutelde kluizen.</p>
+      </a>
+      <a href="features.html#executie-nazorg" class="feature">
+        <div class="icon">📑</div>
+        <h3>Eenvoudige Overdracht</h3>
+        <p>Op verzoek activeren wij de overdracht naar uw nabestaanden.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing container">
+    <h2 class="section-title">Onze pakketten</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card" data-plan="basis">
+        <h3>Basis</h3>
+        <p class="price">€12.49 <span>/mnd</span></p>
+        <ul class="plan-details">
+          <li>✔️ Wensendashboard</li>
+          <li>✔️ Accountscan standaard</li>
+          <li>✔️ E-mailondersteuning</li>
+        </ul>
+      </div>
+      <div class="pricing-card popular selected" data-plan="plus">
+        <h3>Plus <span class="badge">Meest gekozen</span></h3>
+        <p class="price">€24.99 <span>/mnd</span></p>
+        <ul class="plan-details">
+          <li>✔️ Alles in Basis</li>
+          <li>✔️ Premium opslagruimte</li>
+          <li>✔️ Prioriteitssupport</li>
+        </ul>
+      </div>
+      <div class="pricing-card" data-plan="white-label">
+        <h3>Premium</h3>
+        <p class="price">€1.200 <span>/jr</span></p>
+        <ul class="plan-details">
+          <li>✔️ Persoonlijk accountmanager</li>
+          <li>✔️ Jaarlijkse check-up</li>
+          <li>✔️ Extra opslagmogelijkheden</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h2 class="section-title">Vragen? Wij helpen graag</h2>
+    <form id="contact-form" class="contact-form">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="name">Naam* </label>
+          <input type="text" id="name" placeholder="Uw naam" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E‑mail* </label>
+          <input type="email" id="email" placeholder="Uw e‑mail" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefoon (optioneel)</label>
+          <input type="tel" id="phone" placeholder="Uw nummer">
+        </div>
+        <div class="form-group form-full">
+          <label for="message">Bericht</label>
+          <textarea id="message" rows="4">Hallo, ik had graag wat meer informatie gewenst over de mogelijkheden bij NexLegacy, alvast bedankt.</textarea>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Verstuur</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 NexLegacy. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
